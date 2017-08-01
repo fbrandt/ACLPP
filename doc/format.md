@@ -102,6 +102,7 @@ This snippet defines two loading position `BL` and `BR`. `BL` inherits `attrA` a
 | `total_weight` [S] | weight of the loaded ULD (including tare weight of the ULD itself) |
 
 Each loaded item is given by the following attributes:
+
 | Attribute | Description |
 |-|-|
 | `height` [S] | the item height (in actual orientation) |
@@ -114,6 +115,7 @@ Each loaded item is given by the following attributes:
 ### Shipments
 
 Each shipment is given by a list of its items. Each item is given by its key and has the following attributes:
+
 | Attribute | Description |
 |-|-|
 | `allowed_rotations` | feasible orientations of the packed item (see below) |

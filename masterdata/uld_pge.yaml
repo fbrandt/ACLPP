@@ -1,0 +1,17 @@
+uld_types:
+  pge_md11f_md:
+    is_container: false
+    inner_lng_size: 605
+    inner_lat_size: 243
+    inner_height: 238
+    tare_weight: 530
+    max_weight: 11340
+    build_up_time: 7200
+    build_up_cost: 600
+    uld_blocks:
+      - { min_lng: 0, max_lng: 605, min_lat: 0, max_lat: 10, min_height: 0, max_height: 10 }
+      - { min_lng: 0, max_lng: 605, min_lat: 233, max_lat: 243, min_height: 0, max_height: 10 }
+      - { min_lng: 0, max_lng: 10, min_lat: 0, max_lat: 243, min_height: 0, max_height: 10 }
+      - { min_lng: 307, max_lng: 605, min_lat: 0, max_lat: 243, min_height: 0, max_height: 10 }
+    uld_cuts:
+      - { lat1: 175, height1: 244, lat2: 238, height2: 164 }

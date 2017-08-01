@@ -1,0 +1,18 @@
+uld_types:
+  pmc_F_ld:
+    is_container: false
+    inner_lng_size: 243
+    inner_lat_size: 405
+    inner_height: 153
+    tare_weight: 130
+    max_weight: 5102
+    build_up_time: 3600
+    build_up_cost: 200
+    uld_blocks:
+      - { min_lng: 0, max_lng: 243, min_lat: 0, max_lat: 44, min_height: 0, max_height: 10 }
+      - { min_lng: 0, max_lng: 243, min_lat: 361, max_lat: 405, min_height: 0, max_height: 10 }
+      - { min_lng: 0, max_lng: 10, min_lat: 0, max_lat: 405, min_height: 0, max_height: 10 }
+      - { min_lng: 233, max_lng: 243, min_lat: 0, max_lat: 405, min_height: 0, max_height: 10 }
+    uld_cuts:
+      - { lat2: 0, height2: 50, lat1: 44, height1: 0 }
+      - { lat2: 361, height2: 0, lat1: 405, height1: 50 }

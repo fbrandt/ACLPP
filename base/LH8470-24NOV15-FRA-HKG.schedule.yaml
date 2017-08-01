@@ -1,0 +1,3475 @@
+flights:
+  LH8470-24NOV15-FRA-HKG:
+    aircraft_type: md11f
+    legs:
+      LH8470-24NOV15-DEL-HKG:
+        est_fuel_weight: 36100
+        extra_fuel_cost: 0.18
+        extra_fuel_cost_factor: 5.349
+        loaded_ulds:
+          23P:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_F_ld-11
+          AL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-9
+          AR:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-2
+          FL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md_cad-12
+          GL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-3
+          HL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-7
+          JL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-6
+          KL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-4
+          LL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-10
+          ML:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-8
+          MR:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-1
+          P-:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-5
+          R-:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-0
+        segments:
+        - LH8470-24NOV15-FRA-HKG
+        sequence: 2
+        unloading_operations_after: 13
+      LH8470-24NOV15-FRA-DEL:
+        est_fuel_weight: 69800
+        extra_fuel_cost: 0.02
+        extra_fuel_cost_factor: 11.412
+        loaded_ulds:
+          23P:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_F_ld-11
+          31P:
+            segment: LH8470-24NOV15-FRA-DEL
+            uld: pmc_F_ld-8
+          42P:
+            segment: LH8470-24NOV15-FRA-DEL
+            uld: pmc_F_ld-9
+          AL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-9
+          AR:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-2
+          DL:
+            segment: LH8470-24NOV15-FRA-DEL
+            uld: pmc_md11f_md-3
+          EL:
+            segment: LH8470-24NOV15-FRA-DEL
+            uld: pmc_md11f_md-0
+          FL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md_cad-12
+          FR:
+            segment: LH8470-24NOV15-FRA-DEL
+            uld: pmc_md11f_md-1
+          GL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-3
+          GR:
+            segment: LH8470-24NOV15-FRA-DEL
+            uld: pmc_md11f_md-7
+          HL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-7
+          HR:
+            segment: LH8470-24NOV15-FRA-DEL
+            uld: pmc_md11f_md_cad-10
+          JL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-6
+          JR:
+            segment: LH8470-24NOV15-FRA-DEL
+            uld: pmc_md11f_md-6
+          KL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-4
+          KR:
+            segment: LH8470-24NOV15-FRA-DEL
+            uld: pmc_md11f_md-4
+          LL:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-10
+          LR:
+            segment: LH8470-24NOV15-FRA-DEL
+            uld: pmc_md11f_md-5
+          ML:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-8
+          MR:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-1
+          P-:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-5
+          R-:
+            segment: LH8470-24NOV15-FRA-HKG
+            uld: pmc_md11f_md-0
+        loading_operations_before: 23
+        segments:
+        - LH8470-24NOV15-FRA-HKG
+        - LH8470-24NOV15-FRA-DEL
+        unloading_operations_after: 10
+    std_timestamp: 1448392800
+segments:
+  LH8470-24NOV15-FRA-DEL:
+    built_ulds:
+      pmc_F_ld-8:
+        finish: 1448382000
+        loaded:
+        - height: 98
+          lat: 144
+          lng: 199
+          piece: 000-1042x0
+          shipment: 000-1042
+          start_height: 0
+          start_lat: 44
+          start_lng: 0
+        - height: 98
+          lat: 144
+          lng: 199
+          piece: 000-1042x0
+          shipment: 000-1042
+          start_height: 0
+          start_lat: 188
+          start_lng: 0
+        - height: 47
+          lat: 80
+          lng: 121
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 98
+          start_lat: 44
+          start_lng: 0
+        - height: 55
+          lat: 83
+          lng: 79
+          piece: 000-1024x0
+          shipment: 000-1024
+          start_height: 98
+          start_lat: 124
+          start_lng: 0
+        - height: 36
+          lat: 96
+          lng: 56
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 98
+          start_lat: 124
+          start_lng: 79
+        - height: 47
+          lat: 68
+          lng: 61
+          piece: 000-1004x0
+          shipment: 000-1004
+          start_height: 98
+          start_lat: 207
+          start_lng: 0
+        - height: 47
+          lat: 68
+          lng: 61
+          piece: 000-1004x0
+          shipment: 000-1004
+          start_height: 98
+          start_lat: 275
+          start_lng: 0
+        - height: 47
+          lat: 61
+          lng: 68
+          piece: 000-1004x0
+          shipment: 000-1004
+          start_height: 98
+          start_lat: 220
+          start_lng: 61
+        - height: 47
+          lat: 68
+          lng: 61
+          piece: 000-1004x0
+          shipment: 000-1004
+          start_height: 98
+          start_lat: 281
+          start_lng: 79
+        - height: 47
+          lat: 61
+          lng: 68
+          piece: 000-1004x0
+          shipment: 000-1004
+          start_height: 98
+          start_lat: 63
+          start_lng: 121
+        - height: 47
+          lat: 61
+          lng: 68
+          piece: 000-1004x0
+          shipment: 000-1004
+          start_height: 98
+          start_lat: 220
+          start_lng: 129
+        - height: 47
+          lat: 61
+          lng: 68
+          piece: 000-1004x0
+          shipment: 000-1004
+          start_height: 98
+          start_lat: 159
+          start_lng: 135
+        start: 1448379000
+        total_weight: 1058
+        uld_type: pmc_F_ld
+      pmc_F_ld-9:
+        finish: 1448362200
+        loaded:
+        - height: 148
+          lat: 167
+          lng: 125
+          piece: 000-1007x0
+          shipment: 000-1007
+          start_height: 0
+          start_lat: 44
+          start_lng: 0
+        - height: 148
+          lat: 125
+          lng: 167
+          piece: 000-1007x0
+          shipment: 000-1007
+          start_height: 0
+          start_lat: 236
+          start_lng: 0
+        - height: 102
+          lat: 135
+          lng: 108
+          piece: 000-1044x0
+          shipment: 000-1044
+          start_height: 0
+          start_lat: 44
+          start_lng: 125
+        - height: 36
+          lat: 56
+          lng: 96
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 0
+          start_lat: 179
+          start_lng: 125
+        - height: 36
+          lat: 96
+          lng: 56
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 0
+          start_lat: 235
+          start_lng: 167
+        - height: 36
+          lat: 56
+          lng: 96
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 36
+          start_lat: 179
+          start_lng: 125
+        - height: 36
+          lat: 96
+          lng: 56
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 36
+          start_lat: 235
+          start_lng: 167
+        - height: 36
+          lat: 56
+          lng: 96
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 72
+          start_lat: 179
+          start_lng: 125
+        - height: 36
+          lat: 96
+          lng: 56
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 72
+          start_lat: 235
+          start_lng: 167
+        - height: 36
+          lat: 96
+          lng: 56
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 102
+          start_lat: 44
+          start_lng: 125
+        - height: 36
+          lat: 96
+          lng: 56
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 102
+          start_lat: 83
+          start_lng: 181
+        - height: 36
+          lat: 56
+          lng: 96
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 108
+          start_lat: 179
+          start_lng: 125
+        - height: 36
+          lat: 96
+          lng: 56
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 108
+          start_lat: 235
+          start_lng: 167
+        start: 1448359200
+        total_weight: 1630
+        uld_type: pmc_F_ld
+      pmc_md11f_md-0:
+        finish: 1448387400
+        loaded:
+        - height: 177
+          lat: 202
+          lng: 232
+          piece: 000-1027x0
+          shipment: 000-1027
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 68
+          lat: 108
+          lng: 79
+          piece: 000-1039x0
+          shipment: 000-1039
+          start_height: 0
+          start_lat: 135
+          start_lng: 232
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 0
+          start_lng: 232
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 68
+          start_lat: 126
+          start_lng: 232
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 109
+          start_lat: 0
+          start_lng: 232
+        - height: 10
+          lat: 95
+          lng: 60
+          piece: 000-1010x0
+          shipment: 000-1010
+          start_height: 177
+          start_lat: 0
+          start_lng: 0
+        - height: 36
+          lat: 96
+          lng: 56
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 177
+          start_lat: 95
+          start_lng: 0
+        - height: 36
+          lat: 96
+          lng: 56
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 177
+          start_lat: 95
+          start_lng: 56
+        - height: 36
+          lat: 56
+          lng: 96
+          piece: 000-1017x0
+          shipment: 000-1017
+          start_height: 177
+          start_lat: 0
+          start_lng: 60
+        start: 1448384400
+        total_weight: 2858
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-1:
+        finish: 1448391000
+        loaded:
+        - height: 95
+          lat: 136
+          lng: 102
+          piece: 000-1057x0
+          shipment: 000-1057
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 95
+          lat: 99
+          lng: 131
+          piece: 000-1012x0
+          shipment: 000-1012
+          start_height: 0
+          start_lat: 136
+          start_lng: 0
+        - height: 72
+          lat: 116
+          lng: 99
+          piece: 000-1050x0
+          shipment: 000-1050
+          start_height: 0
+          start_lat: 0
+          start_lng: 102
+        - height: 72
+          lat: 116
+          lng: 99
+          piece: 000-1050x0
+          shipment: 000-1050
+          start_height: 0
+          start_lat: 116
+          start_lng: 131
+        - height: 72
+          lat: 116
+          lng: 99
+          piece: 000-1050x0
+          shipment: 000-1050
+          start_height: 0
+          start_lat: 0
+          start_lng: 201
+        - height: 25
+          lat: 63
+          lng: 38
+          piece: 000-1055x0
+          shipment: 000-1055
+          start_height: 0
+          start_lat: 116
+          start_lng: 230
+        - height: 31
+          lat: 42
+          lng: 42
+          piece: 000-1029x0
+          shipment: 000-1029
+          start_height: 0
+          start_lat: 179
+          start_lng: 230
+        - height: 31
+          lat: 42
+          lng: 42
+          piece: 000-1029x0
+          shipment: 000-1029
+          start_height: 0
+          start_lat: 116
+          start_lng: 268
+        - height: 38
+          lat: 20
+          lng: 40
+          piece: 000-1000x0
+          shipment: 000-1000
+          start_height: 0
+          start_lat: 221
+          start_lng: 230
+        start: 1448388000
+        total_weight: 754
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-3:
+        finish: 1448369400
+        loaded:
+        - height: 162
+          lat: 229
+          lng: 209
+          piece: 000-1040x0
+          shipment: 000-1040
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 102
+          lat: 135
+          lng: 108
+          piece: 000-1044x0
+          shipment: 000-1044
+          start_height: 0
+          start_lat: 0
+          start_lng: 209
+        - height: 102
+          lat: 135
+          lng: 108
+          piece: 000-1044x0
+          shipment: 000-1044
+          start_height: 102
+          start_lat: 0
+          start_lng: 209
+        start: 1448366400
+        total_weight: 1128
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-4:
+        finish: 1448391000
+        loaded:
+        - height: 223
+          lat: 179
+          lng: 103
+          piece: 000-1053x0
+          shipment: 000-1053
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 98
+          lat: 199
+          lng: 144
+          piece: 000-1042x0
+          shipment: 000-1042
+          start_height: 0
+          start_lat: 0
+          start_lng: 103
+        - height: 98
+          lat: 199
+          lng: 144
+          piece: 000-1042x0
+          shipment: 000-1042
+          start_height: 98
+          start_lat: 0
+          start_lng: 103
+        - height: 142
+          lat: 210
+          lng: 70
+          piece: 000-1036x0
+          shipment: 000-1036
+          start_height: 0
+          start_lat: 0
+          start_lng: 247
+        - height: 96
+          lat: 48
+          lng: 86
+          piece: 000-1033x0
+          shipment: 000-1033
+          start_height: 0
+          start_lat: 179
+          start_lng: 0
+        - height: 96
+          lat: 86
+          lng: 48
+          piece: 000-1033x0
+          shipment: 000-1033
+          start_height: 142
+          start_lat: 0
+          start_lng: 247
+        - height: 35
+          lat: 63
+          lng: 52
+          piece: 000-1041x0
+          shipment: 000-1041
+          start_height: 96
+          start_lat: 179
+          start_lng: 0
+        - height: 35
+          lat: 52
+          lng: 63
+          piece: 000-1041x0
+          shipment: 000-1041
+          start_height: 131
+          start_lat: 179
+          start_lng: 0
+        - height: 52
+          lat: 21
+          lng: 59
+          piece: 000-1049x0
+          shipment: 000-1049
+          start_height: 0
+          start_lat: 199
+          start_lng: 86
+        start: 1448388000
+        total_weight: 2822
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-5:
+        finish: 1448391000
+        loaded:
+        - height: 142
+          lat: 210
+          lng: 70
+          piece: 000-1036x0
+          shipment: 000-1036
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 142
+          lat: 210
+          lng: 70
+          piece: 000-1036x0
+          shipment: 000-1036
+          start_height: 0
+          start_lat: 0
+          start_lng: 70
+        - height: 142
+          lat: 210
+          lng: 70
+          piece: 000-1036x0
+          shipment: 000-1036
+          start_height: 0
+          start_lat: 0
+          start_lng: 140
+        - height: 142
+          lat: 210
+          lng: 70
+          piece: 000-1036x0
+          shipment: 000-1036
+          start_height: 0
+          start_lat: 0
+          start_lng: 210
+        - height: 79
+          lat: 102
+          lng: 81
+          piece: 000-1008x0
+          shipment: 000-1008
+          start_height: 142
+          start_lat: 0
+          start_lng: 0
+        - height: 79
+          lat: 81
+          lng: 102
+          piece: 000-1008x0
+          shipment: 000-1008
+          start_height: 142
+          start_lat: 102
+          start_lng: 0
+        - height: 79
+          lat: 102
+          lng: 81
+          piece: 000-1008x0
+          shipment: 000-1008
+          start_height: 142
+          start_lat: 0
+          start_lng: 81
+        - height: 68
+          lat: 79
+          lng: 108
+          piece: 000-1039x0
+          shipment: 000-1039
+          start_height: 142
+          start_lat: 102
+          start_lng: 102
+        - height: 68
+          lat: 79
+          lng: 108
+          piece: 000-1039x0
+          shipment: 000-1039
+          start_height: 142
+          start_lat: 0
+          start_lng: 162
+        - height: 68
+          lat: 108
+          lng: 79
+          piece: 000-1039x0
+          shipment: 000-1039
+          start_height: 142
+          start_lat: 79
+          start_lng: 210
+        - height: 29
+          lat: 58
+          lng: 90
+          piece: 000-1056x0
+          shipment: 000-1056
+          start_height: 210
+          start_lat: 102
+          start_lng: 102
+        - height: 29
+          lat: 90
+          lng: 58
+          piece: 000-1056x0
+          shipment: 000-1056
+          start_height: 210
+          start_lat: 0
+          start_lng: 162
+        - height: 29
+          lat: 58
+          lng: 90
+          piece: 000-1056x0
+          shipment: 000-1056
+          start_height: 210
+          start_lat: 90
+          start_lng: 192
+        - height: 29
+          lat: 90
+          lng: 58
+          piece: 000-1056x0
+          shipment: 000-1056
+          start_height: 210
+          start_lat: 0
+          start_lng: 220
+        start: 1448388000
+        total_weight: 3390
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-6:
+        finish: 1448382000
+        loaded:
+        - height: 148
+          lat: 167
+          lng: 125
+          piece: 000-1007x0
+          shipment: 000-1007
+          start_height: 0
+          start_lat: 76
+          start_lng: 192
+        - height: 148
+          lat: 167
+          lng: 125
+          piece: 000-1007x0
+          shipment: 000-1007
+          start_height: 1
+          start_lat: 76
+          start_lng: 67
+        - height: 142
+          lat: 70
+          lng: 210
+          piece: 000-1036x0
+          shipment: 000-1036
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 70
+          start_lng: 0
+        - height: 109
+          lat: 59
+          lng: 101
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 0
+          start_lng: 210
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 109
+          start_lat: 70
+          start_lng: 0
+        - height: 109
+          lat: 59
+          lng: 101
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 109
+          start_lat: 0
+          start_lng: 210
+        - height: 68
+          lat: 108
+          lng: 79
+          piece: 000-1039x0
+          shipment: 000-1039
+          start_height: 148
+          start_lat: 59
+          start_lng: 238
+        - height: 68
+          lat: 108
+          lng: 79
+          piece: 000-1039x0
+          shipment: 000-1039
+          start_height: 149
+          start_lat: 76
+          start_lng: 67
+        - height: 68
+          lat: 108
+          lng: 79
+          piece: 000-1039x0
+          shipment: 000-1039
+          start_height: 149
+          start_lat: 59
+          start_lng: 146
+        start: 1448379000
+        total_weight: 3259
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-7:
+        finish: 1448369400
+        loaded:
+        - height: 162
+          lat: 229
+          lng: 209
+          piece: 000-1040x0
+          shipment: 000-1040
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 47
+          lat: 121
+          lng: 80
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 0
+          start_lat: 0
+          start_lng: 209
+        - height: 47
+          lat: 121
+          lng: 80
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 0
+          start_lat: 121
+          start_lng: 209
+        - height: 47
+          lat: 121
+          lng: 80
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 47
+          start_lat: 0
+          start_lng: 209
+        - height: 47
+          lat: 121
+          lng: 80
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 47
+          start_lat: 121
+          start_lng: 209
+        - height: 47
+          lat: 121
+          lng: 80
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 94
+          start_lat: 0
+          start_lng: 209
+        - height: 47
+          lat: 121
+          lng: 80
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 94
+          start_lat: 121
+          start_lng: 209
+        - height: 47
+          lat: 121
+          lng: 80
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 141
+          start_lat: 0
+          start_lng: 209
+        - height: 47
+          lat: 121
+          lng: 80
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 162
+          start_lat: 0
+          start_lng: 0
+        - height: 47
+          lat: 80
+          lng: 121
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 162
+          start_lat: 121
+          start_lng: 0
+        - height: 47
+          lat: 80
+          lng: 121
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 162
+          start_lat: 0
+          start_lng: 80
+        - height: 47
+          lat: 121
+          lng: 80
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 162
+          start_lat: 80
+          start_lng: 121
+        - height: 47
+          lat: 121
+          lng: 80
+          piece: 000-1023x0
+          shipment: 000-1023
+          start_height: 188
+          start_lat: 0
+          start_lng: 209
+        - height: 29
+          lat: 90
+          lng: 58
+          piece: 000-1056x0
+          shipment: 000-1056
+          start_height: 141
+          start_lat: 121
+          start_lng: 209
+        - height: 29
+          lat: 90
+          lng: 58
+          piece: 000-1056x0
+          shipment: 000-1056
+          start_height: 209
+          start_lat: 0
+          start_lng: 0
+        - height: 29
+          lat: 58
+          lng: 90
+          piece: 000-1056x0
+          shipment: 000-1056
+          start_height: 209
+          start_lat: 90
+          start_lng: 0
+        start: 1448366400
+        total_weight: 2605
+        uld_type: pmc_md11f_md
+      pmc_md11f_md_cad-10:
+        finish: 1448395800
+        loaded:
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 101
+          start_lng: 0
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 0
+          start_lng: 59
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 101
+          start_lng: 59
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 0
+          start_lng: 118
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 101
+          start_lng: 118
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 0
+          start_lng: 177
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 101
+          start_lng: 177
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 0
+          start_lng: 236
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 0
+          start_lat: 101
+          start_lng: 236
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 109
+          start_lat: 0
+          start_lng: 0
+        - height: 109
+          lat: 59
+          lng: 101
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 109
+          start_lat: 101
+          start_lng: 0
+        - height: 109
+          lat: 101
+          lng: 59
+          piece: 000-1032x0
+          shipment: 000-1032
+          start_height: 109
+          start_lat: 0
+          start_lng: 59
+        - height: 68
+          lat: 108
+          lng: 79
+          piece: 000-1039x0
+          shipment: 000-1039
+          start_height: 109
+          start_lat: 101
+          start_lng: 101
+        - height: 68
+          lat: 79
+          lng: 108
+          piece: 000-1039x0
+          shipment: 000-1039
+          start_height: 109
+          start_lat: 0
+          start_lng: 118
+        - height: 68
+          lat: 108
+          lng: 79
+          piece: 000-1039x0
+          shipment: 000-1039
+          start_height: 109
+          start_lat: 79
+          start_lng: 180
+        start: 1448392800
+        total_weight: 3940
+        uld_type: pmc_md11f_md_cad
+    offloads:
+      000-1030x0: 1
+    shipments:
+      000-1000:
+        pieces:
+          000-1000x0:
+            allowed_rotations: 63
+            amount: 1
+            avail: 1448385600
+            height: 38
+            lat: 20
+            lng: 40
+            offload_penalty: 24
+            specials: ZXF
+            stack_height: 0.009
+            stack_lat: 0.009
+            stack_lng: 0.009
+            weight: 6
+      000-1004:
+        pieces:
+          000-1004x0:
+            allowed_rotations: 63
+            amount: 7
+            avail: 1448378400
+            height: 68
+            lat: 47
+            lng: 61
+            offload_penalty: 64
+            stack_height: 0.017
+            stack_lat: 0.017
+            stack_lng: 0.017
+            weight: 23
+      000-1007:
+        pieces:
+          000-1007x0:
+            allowed_rotations: 5
+            amount: 4
+            avail: 1448357100
+            height: 148
+            lat: 125
+            lng: 167
+            offload_penalty: 1028
+            specials: MAG
+            stack_height: 0.092
+            weight: 323
+      000-1008:
+        pieces:
+          000-1008x0:
+            allowed_rotations: 5
+            amount: 3
+            avail: 1448352300
+            height: 79
+            lat: 81
+            lng: 102
+            offload_penalty: 282
+            stack_height: 0.038
+            weight: 141
+      000-1010:
+        pieces:
+          000-1010x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448357100
+            height: 10
+            lat: 60
+            lng: 95
+            offload_penalty: 44
+            stack_height: 0.014
+            weight: 22
+      000-1012:
+        pieces:
+          000-1012x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448366400
+            height: 95
+            lat: 99
+            lng: 131
+            offload_penalty: 820
+            specials: ZXF
+            stack_height: 0.085
+            weight: 44
+      000-1017:
+        pieces:
+          000-1017x0:
+            allowed_rotations: 5
+            amount: 14
+            avail: 1448339400
+            height: 36
+            lat: 56
+            lng: 96
+            offload_penalty: 134
+            stack_height: 0.044
+            weight: 67
+      000-1023:
+        pieces:
+          000-1023x0:
+            allowed_rotations: 5
+            amount: 13
+            avail: 1448352000
+            height: 47
+            lat: 80
+            lng: 121
+            offload_penalty: 240
+            stack_height: 0.084
+            weight: 120
+      000-1024:
+        pieces:
+          000-1024x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448364600
+            height: 55
+            lat: 79
+            lng: 83
+            offload_penalty: 264
+            stack_height: 0.063
+            weight: 132
+      000-1027:
+        pieces:
+          000-1027x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448378400
+            height: 177
+            lat: 202
+            lng: 232
+            offload_penalty: 2910
+            stack_height: 0.091
+            weight: 1455
+      000-1029:
+        pieces:
+          000-1029x0:
+            allowed_rotations: 63
+            amount: 2
+            avail: 1448385600
+            height: 31
+            lat: 42
+            lng: 42
+            offload_penalty: 36
+            specials: ZXF
+            stack_height: 0.013
+            stack_lat: 0.009
+            stack_lng: 0.009
+            weight: 7
+      000-1030:
+        pieces:
+          000-1030x0:
+            allowed_rotations: 63
+            amount: 1
+            avail: 1448365800
+            height: 18
+            lat: 17
+            lng: 34
+            offload_penalty: 4
+            specials: ZXF
+            stack_height: 0.006
+            stack_lat: 0.003
+            stack_lng: 0.006
+            weight: 1
+      000-1032:
+        pieces:
+          000-1032x0:
+            allowed_rotations: 5
+            amount: 20
+            avail: 1448378400
+            height: 109
+            lat: 59
+            lng: 101
+            offload_penalty: 330
+            stack_height: 0.11
+            weight: 165
+      000-1033:
+        pieces:
+          000-1033x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448378400
+            height: 96
+            lat: 48
+            lng: 86
+            offload_penalty: 132
+            specials: DGR RFL RMD
+            stack_height: 0.072
+            weight: 66
+      000-1036:
+        pieces:
+          000-1036x0:
+            allowed_rotations: 5
+            amount: 6
+            avail: 1448378400
+            height: 142
+            lat: 70
+            lng: 210
+            offload_penalty: 694
+            stack_height: 0.11
+            weight: 158
+      000-1039:
+        pieces:
+          000-1039x0:
+            allowed_rotations: 5
+            amount: 10
+            avail: 1448378400
+            height: 68
+            lat: 79
+            lng: 108
+            offload_penalty: 1110
+            stack_height: 0.158
+            weight: 555
+      000-1040:
+        pieces:
+          000-1040x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448365800
+            height: 162
+            lat: 209
+            lng: 229
+            offload_penalty: 2584
+            stack_height: 0.08
+            weight: 630
+      000-1041:
+        pieces:
+          000-1041x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448361000
+            height: 35
+            lat: 52
+            lng: 63
+            offload_penalty: 110
+            stack_height: 0.068
+            weight: 55
+      000-1042:
+        pieces:
+          000-1042x0:
+            allowed_rotations: 5
+            amount: 4
+            avail: 1448378400
+            height: 98
+            lat: 144
+            lng: 199
+            offload_penalty: 936
+            stack_height: 0.136
+            weight: 224
+      000-1044:
+        pieces:
+          000-1044x0:
+            allowed_rotations: 5
+            amount: 3
+            avail: 1448354700
+            height: 102
+            lat: 108
+            lng: 135
+            offload_penalty: 494
+            stack_height: 0.037
+            weight: 184
+      000-1049:
+        pieces:
+          000-1049x0:
+            allowed_rotations: 63
+            amount: 1
+            avail: 1448373300
+            height: 21
+            lat: 52
+            lng: 59
+            offload_penalty: 28
+            stack_height: 0.008
+            stack_lat: 0.003
+            stack_lng: 0.003
+            weight: 14
+      000-1050:
+        pieces:
+          000-1050x0:
+            allowed_rotations: 5
+            amount: 3
+            avail: 1448385600
+            height: 72
+            lat: 99
+            lng: 116
+            offload_penalty: 548
+            specials: ZXF
+            stack_height: 0.072
+            weight: 115
+      000-1053:
+        pieces:
+          000-1053x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448378400
+            height: 223
+            lat: 103
+            lng: 179
+            offload_penalty: 3660
+            stack_height: 0.274
+            weight: 1830
+      000-1055:
+        pieces:
+          000-1055x0:
+            allowed_rotations: 63
+            amount: 1
+            avail: 1448385600
+            height: 25
+            lat: 38
+            lng: 63
+            offload_penalty: 36
+            specials: ZXF
+            stack_height: 0.004
+            stack_lat: 0.002
+            stack_lng: 0.003
+            weight: 8
+      000-1056:
+        pieces:
+          000-1056x0:
+            allowed_rotations: 5
+            amount: 7
+            avail: 1448365800
+            height: 29
+            lat: 58
+            lng: 90
+            offload_penalty: 270
+            stack_height: 0.15
+            weight: 135
+      000-1057:
+        pieces:
+          000-1057x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448365800
+            height: 95
+            lat: 102
+            lng: 136
+            offload_penalty: 876
+            specials: ZXF
+            stack_height: 0.112
+            weight: 207
+    std_timestamp: 1448392800
+  LH8470-24NOV15-FRA-HKG:
+    built_ulds:
+      pmc_F_ld-11:
+        finish: 1448389200
+        loaded:
+        - height: 112
+          lat: 115
+          lng: 89
+          piece: 000-1045x0
+          shipment: 000-1045
+          start_height: 0
+          start_lat: 44
+          start_lng: 0
+        - height: 112
+          lat: 115
+          lng: 89
+          piece: 000-1045x0
+          shipment: 000-1045
+          start_height: 0
+          start_lat: 159
+          start_lng: 0
+        - height: 137
+          lat: 67
+          lng: 106
+          piece: 000-1054x0
+          shipment: 000-1054
+          start_height: 0
+          start_lat: 274
+          start_lng: 0
+        - height: 137
+          lat: 106
+          lng: 67
+          piece: 000-1054x0
+          shipment: 000-1054
+          start_height: 0
+          start_lat: 255
+          start_lng: 176
+        - height: 137
+          lat: 106
+          lng: 67
+          piece: 000-1054x0
+          shipment: 000-1054
+          start_height: 0
+          start_lat: 149
+          start_lng: 176
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 44
+          start_lng: 89
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 136
+          start_lng: 106
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 228
+          start_lng: 106
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 44
+          start_lng: 159
+        - height: 37
+          lat: 153
+          lng: 74
+          piece: 000-1016x0
+          shipment: 000-1016
+          start_height: 112
+          start_lat: 44
+          start_lng: 0
+        - height: 91
+          lat: 40
+          lng: 61
+          piece: 000-1002x0
+          shipment: 000-1002
+          start_height: 0
+          start_lat: 320
+          start_lng: 106
+        - height: 40
+          lat: 61
+          lng: 91
+          piece: 000-1002x0
+          shipment: 000-1002
+          start_height: 112
+          start_lat: 197
+          start_lng: 0
+        - height: 19
+          lat: 65
+          lng: 41
+          piece: 000-1028x0
+          shipment: 000-1028
+          start_height: 133
+          start_lat: 44
+          start_lng: 89
+        - height: 27
+          lat: 45
+          lng: 37
+          piece: 000-1011x0
+          shipment: 000-1011
+          start_height: 91
+          start_lat: 320
+          start_lng: 106
+        - height: 27
+          lat: 45
+          lng: 37
+          piece: 000-1011x0
+          shipment: 000-1011
+          start_height: 118
+          start_lat: 320
+          start_lng: 106
+        - height: 15
+          lat: 20
+          lng: 48
+          piece: 000-1020x0
+          shipment: 000-1020
+          start_height: 0
+          start_lat: 341
+          start_lng: 0
+        start: 1448386200
+        total_weight: 2525
+        uld_type: pmc_F_ld
+      pmc_md11f_md-0:
+        finish: 1448387400
+        loaded:
+        - height: 50
+          lat: 193
+          lng: 285
+          piece: 000-1001x0
+          shipment: 000-1001
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 150
+          lat: 194
+          lng: 158
+          piece: 000-1006x0
+          shipment: 000-1006
+          start_height: 50
+          start_lat: 0
+          start_lng: 0
+        - height: 143
+          lat: 139
+          lng: 120
+          piece: 000-1025x0
+          shipment: 000-1025
+          start_height: 50
+          start_lat: 0
+          start_lng: 158
+        - height: 137
+          lat: 67
+          lng: 106
+          piece: 000-1054x0
+          shipment: 000-1054
+          start_height: 50
+          start_lat: 139
+          start_lng: 158
+        start: 1448384400
+        total_weight: 1378
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-1:
+        finish: 1448389200
+        loaded:
+        - height: 156
+          lat: 147
+          lng: 109
+          piece: 000-1038x0
+          shipment: 000-1038
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 165
+          lat: 73
+          lng: 104
+          piece: 000-1013x0
+          shipment: 000-1013
+          start_height: 0
+          start_lat: 147
+          start_lng: 0
+        - height: 165
+          lat: 73
+          lng: 104
+          piece: 000-1013x0
+          shipment: 000-1013
+          start_height: 0
+          start_lat: 164
+          start_lng: 104
+        - height: 112
+          lat: 89
+          lng: 115
+          piece: 000-1045x0
+          shipment: 000-1045
+          start_height: 0
+          start_lat: 0
+          start_lng: 109
+        - height: 112
+          lat: 89
+          lng: 115
+          piece: 000-1045x0
+          shipment: 000-1045
+          start_height: 112
+          start_lat: 0
+          start_lng: 109
+        - height: 133
+          lat: 70
+          lng: 92
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 89
+          start_lng: 109
+        - height: 133
+          lat: 70
+          lng: 92
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 89
+          start_lng: 201
+        - height: 133
+          lat: 70
+          lng: 92
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 159
+          start_lng: 208
+        - height: 133
+          lat: 70
+          lng: 92
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 0
+          start_lng: 224
+        - height: 108
+          lat: 83
+          lng: 76
+          piece: 000-1046x0
+          shipment: 000-1046
+          start_height: 133
+          start_lat: 89
+          start_lng: 208
+        - height: 108
+          lat: 83
+          lng: 76
+          piece: 000-1046x0
+          shipment: 000-1046
+          start_height: 133
+          start_lat: 0
+          start_lng: 224
+        - height: 37
+          lat: 74
+          lng: 153
+          piece: 000-1016x0
+          shipment: 000-1016
+          start_height: 165
+          start_lat: 134
+          start_lng: 0
+        - height: 67
+          lat: 56
+          lng: 90
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 156
+          start_lat: 0
+          start_lng: 0
+        - height: 67
+          lat: 56
+          lng: 90
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 156
+          start_lat: 56
+          start_lng: 0
+        start: 1448386200
+        total_weight: 3907
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-10:
+        finish: 1448385600
+        loaded:
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 92
+          start_lng: 0
+        - height: 67
+          lat: 56
+          lng: 90
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 0
+          start_lat: 184
+          start_lng: 0
+        - height: 67
+          lat: 90
+          lng: 56
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 0
+          start_lat: 0
+          start_lng: 70
+        - height: 67
+          lat: 90
+          lng: 56
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 0
+          start_lat: 90
+          start_lng: 70
+        - height: 67
+          lat: 56
+          lng: 90
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 0
+          start_lat: 180
+          start_lng: 90
+        - height: 67
+          lat: 90
+          lng: 56
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 0
+          start_lat: 0
+          start_lng: 126
+        - height: 67
+          lat: 90
+          lng: 56
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 0
+          start_lat: 90
+          start_lng: 126
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 180
+          start_lng: 180
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 0
+          start_lng: 182
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 43
+          start_lng: 182
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 86
+          start_lng: 182
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 129
+          start_lng: 182
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 172
+          start_lng: 218
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 0
+          start_lng: 220
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 43
+          start_lng: 220
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 86
+          start_lng: 220
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 129
+          start_lng: 220
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 172
+          start_lng: 256
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 0
+          start_lng: 258
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 43
+          start_lng: 258
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 86
+          start_lng: 258
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 129
+          start_lng: 258
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 14
+          start_lat: 180
+          start_lng: 180
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 14
+          start_lat: 0
+          start_lng: 182
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 14
+          start_lat: 43
+          start_lng: 182
+        start: 1448382600
+        total_weight: 1936
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-2:
+        finish: 1448344200
+        loaded:
+        - height: 156
+          lat: 109
+          lng: 147
+          piece: 000-1038x0
+          shipment: 000-1038
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 156
+          lat: 109
+          lng: 147
+          piece: 000-1038x0
+          shipment: 000-1038
+          start_height: 0
+          start_lat: 109
+          start_lng: 0
+        - height: 156
+          lat: 109
+          lng: 147
+          piece: 000-1038x0
+          shipment: 000-1038
+          start_height: 0
+          start_lat: 0
+          start_lng: 147
+        - height: 156
+          lat: 109
+          lng: 147
+          piece: 000-1038x0
+          shipment: 000-1038
+          start_height: 0
+          start_lat: 109
+          start_lng: 147
+        start: 1448341200
+        total_weight: 2494
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-3:
+        finish: 1448385600
+        loaded:
+        - height: 50
+          lat: 193
+          lng: 285
+          piece: 000-1001x0
+          shipment: 000-1001
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 50
+          lat: 193
+          lng: 285
+          piece: 000-1001x0
+          shipment: 000-1001
+          start_height: 50
+          start_lat: 0
+          start_lng: 0
+        - height: 50
+          lat: 193
+          lng: 285
+          piece: 000-1001x0
+          shipment: 000-1001
+          start_height: 100
+          start_lat: 0
+          start_lng: 0
+        - height: 28
+          lat: 209
+          lng: 282
+          piece: 000-1031x0
+          shipment: 000-1031
+          start_height: 150
+          start_lat: 0
+          start_lng: 0
+        - height: 54
+          lat: 157
+          lng: 53
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 178
+          start_lat: 0
+          start_lng: 0
+        - height: 54
+          lat: 157
+          lng: 53
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 178
+          start_lat: 0
+          start_lng: 53
+        - height: 54
+          lat: 157
+          lng: 53
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 178
+          start_lat: 0
+          start_lng: 106
+        - height: 54
+          lat: 157
+          lng: 53
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 178
+          start_lat: 0
+          start_lng: 159
+        - height: 54
+          lat: 157
+          lng: 53
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 178
+          start_lat: 0
+          start_lng: 212
+        - height: 76
+          lat: 43
+          lng: 56
+          piece: 000-1003x2
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 193
+          start_lng: 0
+        - height: 76
+          lat: 43
+          lng: 56
+          piece: 000-1003x2
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 193
+          start_lng: 56
+        - height: 76
+          lat: 43
+          lng: 56
+          piece: 000-1003x2
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 193
+          start_lng: 112
+        - height: 76
+          lat: 43
+          lng: 56
+          piece: 000-1003x2
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 193
+          start_lng: 168
+        - height: 76
+          lat: 43
+          lng: 56
+          piece: 000-1003x2
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 193
+          start_lng: 224
+        - height: 55
+          lat: 42
+          lng: 70
+          piece: 000-1015x0
+          shipment: 000-1015
+          start_height: 76
+          start_lat: 193
+          start_lng: 0
+        - height: 55
+          lat: 42
+          lng: 70
+          piece: 000-1015x0
+          shipment: 000-1015
+          start_height: 76
+          start_lat: 193
+          start_lng: 70
+        - height: 70
+          lat: 42
+          lng: 55
+          piece: 000-1015x0
+          shipment: 000-1015
+          start_height: 76
+          start_lat: 193
+          start_lng: 140
+        - height: 70
+          lat: 42
+          lng: 55
+          piece: 000-1015x0
+          shipment: 000-1015
+          start_height: 76
+          start_lat: 193
+          start_lng: 195
+        - height: 56
+          lat: 43
+          lng: 38
+          piece: 000-1003x1
+          shipment: 000-1003
+          start_height: 76
+          start_lat: 193
+          start_lng: 250
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 131
+          start_lat: 193
+          start_lng: 0
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 131
+          start_lat: 193
+          start_lng: 38
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 131
+          start_lat: 193
+          start_lng: 76
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 132
+          start_lat: 193
+          start_lng: 250
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 178
+          start_lat: 157
+          start_lng: 0
+        - height: 14
+          lat: 43
+          lng: 38
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 178
+          start_lat: 157
+          start_lng: 38
+        - height: 17
+          lat: 39
+          lng: 20
+          piece: 000-1051x0
+          shipment: 000-1051
+          start_height: 0
+          start_lat: 193
+          start_lng: 280
+        - height: 17
+          lat: 39
+          lng: 20
+          piece: 000-1051x0
+          shipment: 000-1051
+          start_height: 0
+          start_lat: 0
+          start_lng: 285
+        - height: 17
+          lat: 39
+          lng: 20
+          piece: 000-1051x0
+          shipment: 000-1051
+          start_height: 0
+          start_lat: 39
+          start_lng: 285
+        - height: 10
+          lat: 35
+          lng: 29
+          piece: 000-1034x0
+          shipment: 000-1034
+          start_height: 0
+          start_lat: 78
+          start_lng: 285
+        start: 1448382600
+        total_weight: 2890
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-4:
+        finish: 1448349600
+        loaded:
+        - height: 154
+          lat: 193
+          lng: 136
+          piece: 000-1005x0
+          shipment: 000-1005
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 154
+          lat: 193
+          lng: 136
+          piece: 000-1005x0
+          shipment: 000-1005
+          start_height: 0
+          start_lat: 0
+          start_lng: 181
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 154
+          start_lat: 0
+          start_lng: 0
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 154
+          start_lat: 53
+          start_lng: 0
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 154
+          start_lat: 106
+          start_lng: 0
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 154
+          start_lat: 0
+          start_lng: 157
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 154
+          start_lat: 53
+          start_lng: 157
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 154
+          start_lat: 106
+          start_lng: 157
+        start: 1448346600
+        total_weight: 2356
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-5:
+        finish: 1448373000
+        loaded:
+        - height: 154
+          lat: 193
+          lng: 136
+          piece: 000-1005x0
+          shipment: 000-1005
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 154
+          lat: 193
+          lng: 136
+          piece: 000-1005x0
+          shipment: 000-1005
+          start_height: 0
+          start_lat: 0
+          start_lng: 136
+        - height: 87
+          lat: 106
+          lng: 66
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 154
+          start_lat: 0
+          start_lng: 0
+        - height: 87
+          lat: 66
+          lng: 106
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 154
+          start_lat: 106
+          start_lng: 0
+        - height: 87
+          lat: 106
+          lng: 66
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 154
+          start_lat: 0
+          start_lng: 66
+        - height: 87
+          lat: 66
+          lng: 106
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 154
+          start_lat: 106
+          start_lng: 106
+        - height: 87
+          lat: 106
+          lng: 66
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 154
+          start_lat: 0
+          start_lng: 132
+        - height: 87
+          lat: 106
+          lng: 66
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 154
+          start_lat: 0
+          start_lng: 198
+        - height: 44
+          lat: 48
+          lng: 66
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 0
+          start_lat: 193
+          start_lng: 0
+        - height: 44
+          lat: 48
+          lng: 66
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 0
+          start_lat: 193
+          start_lng: 66
+        - height: 44
+          lat: 48
+          lng: 66
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 0
+          start_lat: 193
+          start_lng: 132
+        - height: 44
+          lat: 48
+          lng: 66
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 0
+          start_lat: 193
+          start_lng: 198
+        - height: 66
+          lat: 48
+          lng: 44
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 0
+          start_lat: 193
+          start_lng: 264
+        - height: 48
+          lat: 66
+          lng: 44
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 0
+          start_lat: 0
+          start_lng: 272
+        - height: 48
+          lat: 66
+          lng: 44
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 0
+          start_lat: 66
+          start_lng: 272
+        - height: 22
+          lat: 57
+          lng: 54
+          piece: 000-1058x1
+          shipment: 000-1058
+          start_height: 154
+          start_lat: 106
+          start_lng: 212
+        - height: 22
+          lat: 57
+          lng: 54
+          piece: 000-1058x1
+          shipment: 000-1058
+          start_height: 176
+          start_lat: 106
+          start_lng: 212
+        - height: 22
+          lat: 57
+          lng: 54
+          piece: 000-1058x1
+          shipment: 000-1058
+          start_height: 198
+          start_lat: 106
+          start_lng: 212
+        - height: 22
+          lat: 57
+          lng: 54
+          piece: 000-1058x1
+          shipment: 000-1058
+          start_height: 220
+          start_lat: 106
+          start_lng: 212
+        start: 1448370000
+        total_weight: 2091
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-6:
+        finish: 1448373000
+        loaded:
+        - height: 97
+          lat: 208
+          lng: 278
+          piece: 000-1022x0
+          shipment: 000-1022
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 97
+          lat: 208
+          lng: 278
+          piece: 000-1022x0
+          shipment: 000-1022
+          start_height: 97
+          start_lat: 0
+          start_lng: 0
+        - height: 44
+          lat: 66
+          lng: 48
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 0
+          start_lng: 0
+        - height: 44
+          lat: 66
+          lng: 48
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 66
+          start_lng: 0
+        - height: 48
+          lat: 44
+          lng: 66
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 132
+          start_lng: 0
+        - height: 44
+          lat: 66
+          lng: 48
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 0
+          start_lng: 48
+        - height: 44
+          lat: 66
+          lng: 48
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 66
+          start_lng: 48
+        - height: 48
+          lat: 44
+          lng: 66
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 132
+          start_lng: 66
+        - height: 44
+          lat: 66
+          lng: 48
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 0
+          start_lng: 96
+        - height: 44
+          lat: 66
+          lng: 48
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 66
+          start_lng: 96
+        - height: 48
+          lat: 44
+          lng: 66
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 132
+          start_lng: 132
+        - height: 44
+          lat: 66
+          lng: 48
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 0
+          start_lng: 144
+        - height: 44
+          lat: 66
+          lng: 48
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 66
+          start_lng: 144
+        - height: 44
+          lat: 66
+          lng: 48
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 0
+          start_lng: 192
+        - height: 48
+          lat: 66
+          lng: 44
+          piece: 000-1037x0
+          shipment: 000-1037
+          start_height: 194
+          start_lat: 66
+          start_lng: 192
+        - height: 22
+          lat: 57
+          lng: 54
+          piece: 000-1058x1
+          shipment: 000-1058
+          start_height: 194
+          start_lat: 132
+          start_lng: 198
+        - height: 22
+          lat: 57
+          lng: 54
+          piece: 000-1058x1
+          shipment: 000-1058
+          start_height: 194
+          start_lat: 66
+          start_lng: 236
+        - height: 22
+          lat: 57
+          lng: 54
+          piece: 000-1058x1
+          shipment: 000-1058
+          start_height: 216
+          start_lat: 66
+          start_lng: 236
+        - height: 38
+          lat: 28
+          lng: 39
+          piece: 000-1018x0
+          shipment: 000-1018
+          start_height: 0
+          start_lat: 208
+          start_lng: 0
+        - height: 38
+          lat: 28
+          lng: 39
+          piece: 000-1018x0
+          shipment: 000-1018
+          start_height: 0
+          start_lat: 208
+          start_lng: 39
+        - height: 38
+          lat: 28
+          lng: 39
+          piece: 000-1018x0
+          shipment: 000-1018
+          start_height: 0
+          start_lat: 208
+          start_lng: 78
+        - height: 38
+          lat: 28
+          lng: 39
+          piece: 000-1018x0
+          shipment: 000-1018
+          start_height: 0
+          start_lat: 208
+          start_lng: 117
+        - height: 38
+          lat: 28
+          lng: 39
+          piece: 000-1018x0
+          shipment: 000-1018
+          start_height: 0
+          start_lat: 208
+          start_lng: 156
+        - height: 11
+          lat: 54
+          lng: 57
+          piece: 000-1058x0
+          shipment: 000-1058
+          start_height: 216
+          start_lat: 132
+          start_lng: 198
+        - height: 38
+          lat: 14
+          lng: 39
+          piece: 000-1018x1
+          shipment: 000-1018
+          start_height: 0
+          start_lat: 208
+          start_lng: 195
+        - height: 14
+          lat: 32
+          lng: 44
+          piece: 000-1048x0
+          shipment: 000-1048
+          start_height: 0
+          start_lat: 208
+          start_lng: 234
+        - height: 14
+          lat: 44
+          lng: 32
+          piece: 000-1048x0
+          shipment: 000-1048
+          start_height: 0
+          start_lat: 0
+          start_lng: 278
+        - height: 22
+          lat: 15
+          lng: 35
+          piece: 000-1052x0
+          shipment: 000-1052
+          start_height: 0
+          start_lat: 222
+          start_lng: 195
+        - height: 15
+          lat: 35
+          lng: 22
+          piece: 000-1052x0
+          shipment: 000-1052
+          start_height: 0
+          start_lat: 44
+          start_lng: 278
+        - height: 15
+          lat: 35
+          lng: 22
+          piece: 000-1052x0
+          shipment: 000-1052
+          start_height: 0
+          start_lat: 79
+          start_lng: 278
+        - height: 15
+          lat: 35
+          lng: 22
+          piece: 000-1052x0
+          shipment: 000-1052
+          start_height: 0
+          start_lat: 114
+          start_lng: 278
+        - height: 15
+          lat: 35
+          lng: 22
+          piece: 000-1052x0
+          shipment: 000-1052
+          start_height: 0
+          start_lat: 149
+          start_lng: 278
+        - height: 15
+          lat: 35
+          lng: 22
+          piece: 000-1052x0
+          shipment: 000-1052
+          start_height: 0
+          start_lat: 184
+          start_lng: 278
+        - height: 15
+          lat: 22
+          lng: 35
+          piece: 000-1052x0
+          shipment: 000-1052
+          start_height: 0
+          start_lat: 219
+          start_lng: 278
+        - height: 22
+          lat: 35
+          lng: 15
+          piece: 000-1052x0
+          shipment: 000-1052
+          start_height: 0
+          start_lat: 44
+          start_lng: 300
+        - height: 22
+          lat: 35
+          lng: 15
+          piece: 000-1052x0
+          shipment: 000-1052
+          start_height: 0
+          start_lat: 79
+          start_lng: 300
+        start: 1448370000
+        total_weight: 3022
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-7:
+        finish: 1448373000
+        loaded:
+        - height: 99
+          lat: 200
+          lng: 145
+          piece: 000-1047x0
+          shipment: 000-1047
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 99
+          lat: 200
+          lng: 145
+          piece: 000-1047x0
+          shipment: 000-1047
+          start_height: 0
+          start_lat: 0
+          start_lng: 145
+        - height: 99
+          lat: 200
+          lng: 145
+          piece: 000-1047x0
+          shipment: 000-1047
+          start_height: 99
+          start_lat: 0
+          start_lng: 0
+        - height: 116
+          lat: 133
+          lng: 69
+          piece: 000-1035x0
+          shipment: 000-1035
+          start_height: 99
+          start_lat: 0
+          start_lng: 145
+        - height: 116
+          lat: 133
+          lng: 69
+          piece: 000-1035x0
+          shipment: 000-1035
+          start_height: 99
+          start_lat: 0
+          start_lng: 214
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 99
+          start_lat: 133
+          start_lng: 145
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 153
+          start_lat: 133
+          start_lng: 145
+        start: 1448370000
+        total_weight: 2877
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-8:
+        finish: 1448369400
+        loaded:
+        - height: 82
+          lat: 217
+          lng: 290
+          piece: 000-1021x0
+          shipment: 000-1021
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 115
+          lat: 186
+          lng: 143
+          piece: 000-1019x0
+          shipment: 000-1019
+          start_height: 82
+          start_lat: 0
+          start_lng: 0
+        - height: 156
+          lat: 147
+          lng: 109
+          piece: 000-1038x0
+          shipment: 000-1038
+          start_height: 82
+          start_lat: 0
+          start_lng: 143
+        start: 1448366400
+        total_weight: 1337
+        uld_type: pmc_md11f_md
+      pmc_md11f_md-9:
+        finish: 1448373000
+        loaded:
+        - height: 82
+          lat: 217
+          lng: 290
+          piece: 000-1021x0
+          shipment: 000-1021
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 82
+          lat: 217
+          lng: 290
+          piece: 000-1021x0
+          shipment: 000-1021
+          start_height: 82
+          start_lat: 0
+          start_lng: 0
+        start: 1448370000
+        total_weight: 706
+        uld_type: pmc_md11f_md
+      pmc_md11f_md_cad-12:
+        finish: 1448395800
+        loaded:
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 92
+          start_lng: 0
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 0
+          start_lng: 70
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 92
+          start_lng: 70
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 0
+          start_lng: 140
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 92
+          start_lng: 140
+        - height: 133
+          lat: 92
+          lng: 70
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 0
+          start_lng: 210
+        - height: 133
+          lat: 70
+          lng: 92
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 92
+          start_lng: 210
+        - height: 133
+          lat: 70
+          lng: 92
+          piece: 000-1026x0
+          shipment: 000-1026
+          start_height: 0
+          start_lat: 162
+          start_lng: 210
+        - height: 87
+          lat: 106
+          lng: 66
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 133
+          start_lat: 0
+          start_lng: 0
+        - height: 87
+          lat: 66
+          lng: 106
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 133
+          start_lat: 106
+          start_lng: 0
+        - height: 87
+          lat: 106
+          lng: 66
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 133
+          start_lat: 0
+          start_lng: 66
+        - height: 87
+          lat: 66
+          lng: 106
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 133
+          start_lat: 127
+          start_lng: 106
+        - height: 87
+          lat: 66
+          lng: 106
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 133
+          start_lat: 61
+          start_lng: 132
+        - height: 87
+          lat: 106
+          lng: 66
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 133
+          start_lat: 87
+          start_lng: 238
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 0
+          start_lat: 184
+          start_lng: 0
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 54
+          start_lat: 184
+          start_lng: 0
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 133
+          start_lat: 0
+          start_lng: 132
+        - height: 54
+          lat: 53
+          lng: 157
+          piece: 000-1043x0
+          shipment: 000-1043
+          start_height: 187
+          start_lat: 0
+          start_lng: 132
+        start: 1448392800
+        total_weight: 2609
+        uld_type: pmc_md11f_md_cad
+    offloads: {}
+    shipments:
+      000-1001:
+        pieces:
+          000-1001x0:
+            allowed_rotations: 5
+            amount: 4
+            avail: 1448378400
+            height: 50
+            lat: 193
+            lng: 285
+            offload_penalty: 916
+            stack_height: 0.075
+            weight: 310
+      000-1002:
+        pieces:
+          000-1002x0:
+            allowed_rotations: 63
+            amount: 2
+            avail: 1448385600
+            height: 61
+            lat: 40
+            lng: 91
+            offload_penalty: 200
+            specials: ZXF
+            stack_height: 0.049
+            stack_lat: 0.033
+            stack_lng: 0.049
+            weight: 50
+      000-1003:
+        pieces:
+          000-1003x0:
+            allowed_rotations: 63
+            amount: 24
+            avail: 1448378400
+            height: 14
+            lat: 38
+            lng: 43
+            offload_penalty: 12
+            stack_height: 0.036
+            stack_lat: 0.009
+            stack_lng: 0.009
+            weight: 6
+          000-1003x1:
+            allowed_rotations: 63
+            amount: 1
+            avail: 1448378400
+            height: 56
+            lat: 38
+            lng: 43
+            offload_penalty: 48
+            stack_height: 0.036
+            stack_lat: 0.009
+            stack_lng: 0.009
+            weight: 24
+          000-1003x2:
+            allowed_rotations: 63
+            amount: 5
+            avail: 1448378400
+            height: 76
+            lat: 43
+            lng: 56
+            offload_penalty: 96
+            stack_height: 0.036
+            stack_lat: 0.009
+            stack_lng: 0.009
+            weight: 48
+      000-1005:
+        pieces:
+          000-1005x0:
+            allowed_rotations: 5
+            amount: 4
+            avail: 1448337600
+            height: 154
+            lat: 136
+            lng: 193
+            offload_penalty: 1346
+            stack_height: 0.088
+            weight: 543
+      000-1006:
+        pieces:
+          000-1006x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448378400
+            height: 150
+            lat: 158
+            lng: 194
+            offload_penalty: 1532
+            stack_height: 0.029
+            weight: 360
+      000-1009:
+        pieces:
+          000-1009x0:
+            allowed_rotations: 5
+            amount: 12
+            avail: 1448354700
+            height: 87
+            lat: 66
+            lng: 106
+            offload_penalty: 202
+            specials: PPH
+            stack_height: 0.047
+            weight: 93
+      000-1011:
+        pieces:
+          000-1011x0:
+            allowed_rotations: 63
+            amount: 2
+            avail: 1448378400
+            height: 37
+            lat: 27
+            lng: 45
+            offload_penalty: 16
+            specials: ICE
+            stack_height: 0.095
+            stack_lat: 0.016
+            stack_lng: 0.019
+            weight: 8
+      000-1013:
+        pieces:
+          000-1013x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448378400
+            height: 165
+            lat: 73
+            lng: 104
+            offload_penalty: 432
+            stack_height: 0.102
+            weight: 216
+      000-1014:
+        pieces:
+          000-1014x0:
+            allowed_rotations: 5
+            amount: 8
+            avail: 1448378400
+            height: 67
+            lat: 56
+            lng: 90
+            offload_penalty: 480
+            stack_height: 0.232
+            weight: 240
+      000-1015:
+        pieces:
+          000-1015x0:
+            allowed_rotations: 63
+            amount: 4
+            avail: 1448378400
+            height: 70
+            lat: 42
+            lng: 55
+            offload_penalty: 94
+            stack_height: 0.073
+            stack_lat: 0.073
+            stack_lng: 0.073
+            weight: 47
+      000-1016:
+        pieces:
+          000-1016x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448378400
+            height: 37
+            lat: 74
+            lng: 153
+            offload_penalty: 212
+            stack_height: 0.028
+            weight: 106
+      000-1018:
+        pieces:
+          000-1018x0:
+            allowed_rotations: 63
+            amount: 5
+            avail: 1448357100
+            height: 28
+            lat: 38
+            lng: 39
+            offload_penalty: 96
+            specials: DGR
+            stack_height: 0.192
+            stack_lat: 0.192
+            stack_lng: 0.192
+            weight: 48
+          000-1018x1:
+            allowed_rotations: 63
+            amount: 1
+            avail: 1448357100
+            height: 39
+            lat: 14
+            lng: 38
+            offload_penalty: 48
+            specials: DGR
+            stack_height: 0.192
+            stack_lat: 0.192
+            stack_lng: 0.192
+            weight: 24
+      000-1019:
+        pieces:
+          000-1019x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448358600
+            height: 115
+            lat: 143
+            lng: 186
+            offload_penalty: 1018
+            stack_height: 0.031
+            weight: 328
+      000-1020:
+        pieces:
+          000-1020x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448371200
+            height: 15
+            lat: 20
+            lng: 48
+            offload_penalty: 16
+            specials: ZXF
+            stack_height: 0.022
+            weight: 4
+      000-1021:
+        pieces:
+          000-1021x0:
+            allowed_rotations: 5
+            amount: 3
+            avail: 1448354700
+            height: 82
+            lat: 217
+            lng: 290
+            offload_penalty: 1720
+            stack_height: 0.117
+            weight: 288
+      000-1022:
+        pieces:
+          000-1022x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448358900
+            height: 97
+            lat: 208
+            lng: 278
+            offload_penalty: 2090
+            stack_height: 0.069
+            weight: 1045
+      000-1025:
+        pieces:
+          000-1025x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448378400
+            height: 143
+            lat: 120
+            lng: 139
+            offload_penalty: 952
+            stack_height: 0.136
+            weight: 476
+      000-1026:
+        pieces:
+          000-1026x0:
+            allowed_rotations: 5
+            amount: 19
+            avail: 1448378400
+            height: 133
+            lat: 70
+            lng: 92
+            offload_penalty: 284
+            stack_height: 0.054
+            weight: 129
+      000-1028:
+        pieces:
+          000-1028x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448373300
+            height: 19
+            lat: 41
+            lng: 65
+            offload_penalty: 36
+            specials: ZXF
+            stack_height: 0.01
+            weight: 9
+      000-1031:
+        pieces:
+          000-1031x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448378400
+            height: 28
+            lat: 209
+            lng: 282
+            offload_penalty: 704
+            stack_height: 0.034
+            weight: 352
+      000-1034:
+        pieces:
+          000-1034x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448378400
+            height: 10
+            lat: 29
+            lng: 35
+            offload_penalty: 2
+            stack_height: 0.001
+            weight: 1
+      000-1035:
+        pieces:
+          000-1035x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448352300
+            height: 116
+            lat: 69
+            lng: 133
+            offload_penalty: 426
+            stack_height: 0.077
+            weight: 213
+      000-1037:
+        pieces:
+          000-1037x0:
+            allowed_rotations: 63
+            amount: 20
+            avail: 1448360700
+            height: 48
+            lat: 44
+            lng: 66
+            offload_penalty: 54
+            stack_height: 0.025
+            stack_lat: 0.024
+            stack_lng: 0.025
+            weight: 27
+      000-1038:
+        pieces:
+          000-1038x0:
+            allowed_rotations: 5
+            amount: 6
+            avail: 1448328600
+            height: 156
+            lat: 109
+            lng: 147
+            offload_penalty: 1182
+            stack_height: 0.059
+            weight: 591
+      000-1043:
+        pieces:
+          000-1043x0:
+            allowed_rotations: 5
+            amount: 17
+            avail: 1448345400
+            height: 54
+            lat: 53
+            lng: 157
+            offload_penalty: 380
+            stack_height: 0.129
+            weight: 190
+      000-1045:
+        pieces:
+          000-1045x0:
+            allowed_rotations: 5
+            amount: 4
+            avail: 1448374800
+            height: 112
+            lat: 89
+            lng: 115
+            offload_penalty: 1338
+            stack_height: 0.186
+            weight: 669
+      000-1046:
+        pieces:
+          000-1046x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448355600
+            height: 108
+            lat: 76
+            lng: 83
+            offload_penalty: 314
+            specials: DGR RFL
+            stack_height: 0.082
+            weight: 157
+      000-1047:
+        pieces:
+          000-1047x0:
+            allowed_rotations: 5
+            amount: 3
+            avail: 1448363700
+            height: 99
+            lat: 145
+            lng: 200
+            offload_penalty: 1294
+            specials: EAT PEP PER
+            stack_height: 0.061
+            weight: 647
+      000-1048:
+        pieces:
+          000-1048x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448360400
+            height: 14
+            lat: 32
+            lng: 44
+            offload_penalty: 12
+            stack_height: 0.007
+            weight: 6
+      000-1051:
+        pieces:
+          000-1051x0:
+            allowed_rotations: 63
+            amount: 3
+            avail: 1448378400
+            height: 17
+            lat: 20
+            lng: 39
+            offload_penalty: 26
+            specials: DGR
+            stack_height: 0.039
+            stack_lat: 0.021
+            stack_lng: 0.033
+            weight: 13
+      000-1052:
+        pieces:
+          000-1052x0:
+            allowed_rotations: 63
+            amount: 9
+            avail: 1448354400
+            height: 22
+            lat: 15
+            lng: 35
+            offload_penalty: 14
+            specials: DGR RFL
+            stack_height: 0.051
+            stack_lat: 0.032
+            stack_lng: 0.051
+            weight: 7
+      000-1054:
+        pieces:
+          000-1054x0:
+            allowed_rotations: 5
+            amount: 4
+            avail: 1448378400
+            height: 137
+            lat: 67
+            lng: 106
+            offload_penalty: 324
+            stack_height: 0.04
+            weight: 102
+      000-1058:
+        pieces:
+          000-1058x0:
+            allowed_rotations: 63
+            amount: 1
+            avail: 1448364600
+            height: 11
+            lat: 54
+            lng: 57
+            offload_penalty: 32
+            specials: RFL
+            stack_height: 0.042
+            stack_lat: 0.014
+            stack_lng: 0.014
+            weight: 16
+          000-1058x1:
+            allowed_rotations: 63
+            amount: 7
+            avail: 1448364600
+            height: 22
+            lat: 54
+            lng: 57
+            offload_penalty: 64
+            specials: RFL
+            stack_height: 0.042
+            stack_lat: 0.014
+            stack_lng: 0.014
+            weight: 32
+    std_timestamp: 1448392800
+

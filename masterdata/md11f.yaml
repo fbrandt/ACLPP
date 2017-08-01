@@ -1,0 +1,393 @@
+aircraft_types:
+  md11f:
+    model: McDonnell Douglas 11 Freighter (Simplified)
+    class: Freighter
+    oew: 121000
+    oew_lng_arm: 3300
+    min_lng_arm: 3037
+    max_lng_arm: 3300
+    opt_lng_arm: 3300
+    compartments:
+      MD:
+        label: main deck
+        deck: MD
+        virtual_positions:
+          is_virtual: true
+          left_lat_arm: -132
+          right_lat_arm: 132
+          PMC_positions:
+            is_virtual: true
+            compatible_uld_types: [ md_pmc, pmc_md11f_md ]
+            C1:
+              is_virtual: true
+              lng_arm: 832
+              max_weight: 2800
+              AL:
+                distance_from_door: 1
+                blocking_positions: [ BL ]
+              AR:
+                distance_from_door: 2
+                blocking_positions: [ BR ]
+            C2:
+              is_virtual: true
+              max_weight: 6800
+              B:
+                is_virtual: true
+                max_weight: 4109
+                lng_arm: 1160
+                BL:
+                  distance_from_door: 0
+                BR:
+                  distance_from_door: 1
+                  blocking_positions: [ BL ]
+              C:
+                is_virtual: true
+                max_weight: 4109
+                lng_arm: 1488
+                CL:
+                  distance_from_door: 1
+                  blocking_positions: [ BL ]
+                CR:
+                  distance_from_door: 2
+                  blocking_positions: [ BR ]
+              D:
+                is_virtual: true
+                max_weight: 4109
+                lng_arm: 1816
+                DL:
+                  distance_from_door: 2
+                  blocking_positions: [ CL ]
+                DR:
+                  distance_from_door: 3
+                  blocking_positions: [ CR ]
+              E:
+                is_virtual: true
+                max_weight: 5000
+                lng_arm: 2144
+                EL:
+                  distance_from_door: 3
+                  blocking_positions: [ DL ]
+                ER:
+                  distance_from_door: 4
+                  blocking_positions: [ DR, CDR ]
+              F:
+                is_virtual: true
+                max_weight: 5000
+                lng_arm: 2472
+                FL:
+                  distance_from_door: 4
+                  blocking_positions: [ EL ]
+                FR:
+                  distance_from_door: 5
+                  blocking_positions: [ ER ]
+              G:
+                is_virtual: true
+                lng_arm: 2800
+                GL:
+                  distance_from_door: 5
+                  blocking_positions: [ FL ]
+                GR:
+                  distance_from_door: 6
+                  blocking_positions: [ FR, EFR ]
+              H:
+                is_virtual: true
+                lng_arm: 3128
+                HL:
+                  distance_from_door: 6
+                  blocking_positions: [ GL ]
+                HR:
+                  distance_from_door: 7
+                  blocking_positions: [ GR ]
+              J:
+                is_virtual: true
+                max_weight: 6418
+                lng_arm: 3456
+                JL:
+                  distance_from_door: 6
+                  blocking_positions: [ HL ]
+                JR:
+                  distance_from_door: 7
+                  blocking_positions: [ HR, GHR ]
+              K:
+                is_virtual: true
+                max_weight: 5000
+                lng_arm: 3784
+                KL:
+                  distance_from_door: 7
+                  blocking_positions: [ JL ]
+                KR:
+                  distance_from_door: 8
+                  blocking_positions: [ JR ]
+            C3:
+              is_virtual: true
+              max_weight: 4500
+              L-:
+                is_virtual: true
+                max_weight: 4109
+                lng_arm: 4112
+                LL:
+                  distance_from_door: 8
+                  blocking_positions: [ KL ]
+                LR:
+                  distance_from_door: 9
+                  blocking_positions: [ KR ]
+              M:
+                is_virtual: true
+                max_weight: 4109
+                lng_arm: 4440
+                ML:
+                  distance_from_door: 9
+                  blocking_positions: [ LL ]
+                MR:
+                  distance_from_door: 10
+                  blocking_positions: [ LR ]
+            C4:
+              is_virtual: true
+              P-:
+                lng_arm: 4737
+                max_weight: 4500
+                distance_from_door: 10
+                blocking_positions: [ ML, MR ]
+              R-:
+                lng_arm: 4985
+                max_weight: 2700
+                distance_from_door: 11
+                blocking_positions: [ P- ]
+          20FT:
+            is_virtual: true
+            compatible_uld_types: [ md_pge, pge_md11f_md ]
+            CDR:
+              lng_arm: 1652
+              max_weight: 7822
+              distance_from_door: 2
+              blocking_positions: [ BR, CL ]
+            EFR:
+              lng_arm: 2308
+              max_weight: 9470
+              distance_from_door: 4
+              blocking_positions: [ DR, CDR ]
+            GHR:
+              lng_arm: 2964
+              max_weight: 11340
+              distance_from_door: 6
+              blocking_positions: [ FR, EFR ]
+      LD1:
+        label: first forward lower deck
+        deck: LD
+        virtual_positions:
+          is_virtual: true
+          compatible_uld_types: [ ld_pmc, pmc_F_ld ]
+          11P:
+            lng_arm: 1041
+            max_weight: 2000
+            distance_from_door: 3
+            blocking_positions: [ 12P ]
+          12P:
+            lng_arm: 1295
+            max_weight: 2700
+            distance_from_door: 2
+            blocking_positions: [ 13P ]
+          13P:
+            lng_arm: 1549
+            max_weight: 2700
+            distance_from_door: 1
+            blocking_positions: [ 21P ]
+      LD2:
+        label: second forward lower deck
+        deck: LD
+        virtual_positions:
+          is_virtual: true
+          compatible_uld_types: [ ld_pmc, pmc_F_ld ]
+          21P:
+            lng_arm: 1803
+            max_weight: 5148
+            distance_from_door: 0
+          22P:
+            lng_arm: 2057
+            max_weight: 5148
+            distance_from_door: 1
+            blocking_positions: [ 21P ]
+          23P:
+            lng_arm: 2311
+            max_weight: 5148
+            distance_from_door: 2
+            blocking_positions: [ 22P ]
+      LD3:
+        label: first aft lower deck
+        deck: LD
+        virtual_positions:
+          is_virtual: true
+          ake:
+            is_virtual: true
+            compatible_uld_types: [ ake, ld_ake ]
+            max_weight: 1588
+            31:
+              is_virtual: true
+              lng_arm: 3837
+              31L:
+                distance_from_door: 5
+                blocking_positions: [ 32P, 32L ]
+              31R:
+                distance_from_door: 4
+                blocking_positions: [ 32P, 32R ]
+            32:
+              is_virtual: true
+              lng_arm: 3995
+              32L:
+                distance_from_door: 4
+                blocking_positions: [ 32P, 33L ]
+              32R:
+                distance_from_door: 3
+                blocking_positions: [ 32P, 33R ]
+            33:
+              is_virtual: true
+              lng_arm: 4153
+              33L:
+                distance_from_door: 3
+                blocking_positions: [ 33P, 34L ]
+              33R:
+                distance_from_door: 2
+                blocking_positions: [ 33P, 34R ]
+            34:
+              is_virtual: true
+              lng_arm: 4311
+              34L:
+                distance_from_door: 2
+                blocking_positions: [ 33P, 35L ]
+              34R:
+                distance_from_door: 1
+                blocking_positions: [ 33P, 35R ]
+            35:
+              is_virtual: true
+              lng_arm: 4469
+              35L:
+                distance_from_door: 1
+                blocking_positions: [ 35R ]
+              35R:
+                distance_from_door: 0
+          pmc:
+            is_virtual: true
+            compatible_uld_types: [ ld_pmc, pmc_F_ld ]
+            max_weight: 4700
+            31P:
+              lng_arm: 3882
+              distance_from_door: 2
+              blocking_positions: [ 32P, 33L, 33R ]
+            32P:
+              lng_arm: 4136
+              distance_from_door: 1
+              blocking_positions: [ 33P, 35L, 35R ]
+            33P:
+              lng_arm: 4390
+              distance_from_door: 0
+      LD4:
+        label: second aft lower deck
+        deck: LD
+        virtual_positions:
+          is_virtual: true
+          ake:
+            is_virtual: true
+            compatible_uld_types: [ ake, ld_ake ]
+            max_weight: 1588
+            41:
+              is_virtual: true
+              lng_arm: 4627
+              41L:
+                distance_from_door: 2
+                blocking_positions: [ 35, 35L, 33P ]
+              41R:
+                distance_from_door: 1
+                blocking_positions: [ 35, 35R, 33P ]
+            42:
+              is_virtual: true
+              lng_arm: 4785
+              42L:
+                distance_from_door: 3
+                blocking_positions: [ 41, 41L ]
+              42R:
+                distance_from_door: 2
+                blocking_positions: [ 41, 41R ]
+          42P:
+            compatible_uld_types: [ ld_pmc, pmc_F_ld ]
+            max_weight: 3800
+            lng_arm: 4739
+            distance_from_door: 1
+            blocking_positions: [ 35, 35L, 35R, 33P ]
+    overlapping_positions:
+      - [ CR, CDR ]
+      - [ DR, CDR ]
+      - [ ER, EFR ]
+      - [ FR, EFR ]
+      - [ GR, GHR ]
+      - [ HR, GHR ]
+      - [ 31L, 31P ]
+      - [ 31R, 31P ]
+      - [ 32L, 31P ]
+      - [ 32R, 31P ]
+      - [ 32L, 32P ]
+      - [ 32R, 32P ]
+      - [ 33L, 32P ]
+      - [ 33R, 32P ]
+      - [ 34L, 32P ]
+      - [ 34R, 32P ]
+      - [ 34L, 33P ]
+      - [ 34R, 33P ]
+      - [ 35L, 33P ]
+      - [ 35R, 33P ]
+      - [ 41L, 42P ]
+      - [ 41R, 42P ]
+      - [ 42L, 42P ]
+      - [ 42R, 42P ]
+    weight_constraints:
+      total:
+        limit: 93000
+        positions: []
+      MD_A:
+        limit: 5000
+        positions: [ AL, AR ]
+      MD_B:
+        limit: 6790
+        positions: [ BL, BR ]
+      MD_CD:
+        limit: 13580
+        positions: [ CL, CR, CDR, DL, DR ]
+      MD_C:
+        limit: 6790
+        positions: [ CL, CR ]
+      MD_D:
+        limit: 6790
+        positions: [ DL, DR ]
+      MD_EF:
+        limit: 13580
+        positions: [ EL, ER, EFR, FL, FR ]
+      MD_E:
+        limit: 6790
+        positions: [ EL, ER ]
+      MD_F:
+        limit: 6790
+        positions: [ FL, FR ]
+      MD_GH:
+        limit: 27120
+        positions: [ GL, GR, GHR, HL, HR ]
+      MD_G:
+        limit: 13560
+        positions: [ GL, GR ]
+      MD_H:
+        limit: 13560
+        positions: [ HL, HR ]
+      MD_J:
+        limit: 13680
+        positions: [ JL, JR ]
+      MD_K:
+        limit: 6790
+        positions: [ KL, KR ]
+      MD_L:
+        limit: 6790
+        positions: [ LL, LR ]
+      MD_M:
+        limit: 6790
+        positions: [ ML, MR ]
+    net_weight_constraint:
+      ICE_LD12:
+        limit: 50
+        position: [ 11P, 12P, 13P, 21P, 22P, 23P ]

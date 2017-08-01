@@ -1,0 +1,554 @@
+flights:
+  LH8272-25NOV15-FRA-SCL:
+    aircraft_type: md11f
+    legs:
+      LH8272-25NOV15-CWB-SCL:
+        est_fuel_weight: 25000
+        extra_fuel_cost: 13.08
+        extra_fuel_cost_factor: 2.543
+        loaded_ulds:
+          GL:
+            segment: LH8272-25NOV15-FRA-SCL
+            uld: pmc_md11f_md-0
+        segments:
+        - LH8272-25NOV15-FRA-SCL
+        sequence: 4
+        unloading_operations_after: 1
+      LH8272-25NOV15-DKR-VCP:
+        est_fuel_weight: 48800
+        extra_fuel_cost: 9.02
+        extra_fuel_cost_factor: 7.048
+        loaded_ulds:
+          34L:
+            segment: LH8272-25NOV15-FRA-CWB
+            uld: ake-0
+          GHR:
+            segment: LH8272-25NOV15-FRA-VCP
+            uld: pge_md11f_md-1
+          GL:
+            segment: LH8272-25NOV15-FRA-SCL
+            uld: pmc_md11f_md-0
+          MR:
+            segment: LH8272-25NOV15-FRA-VCP
+            uld: pmc_md11f_md-0
+        segments:
+        - LH8272-25NOV15-FRA-VCP
+        - LH8272-25NOV15-FRA-SCL
+        - LH8272-25NOV15-FRA-CWB
+        sequence: 2
+        unloading_operations_after: 2
+      LH8272-25NOV15-FRA-DKR:
+        est_fuel_weight: 40500
+        extra_fuel_cost: 30.46
+        extra_fuel_cost_factor: 5.837
+        loaded_ulds:
+          34L:
+            segment: LH8272-25NOV15-FRA-CWB
+            uld: ake-0
+          FL:
+            segment: LH8272-25NOV15-FRA-DKR
+            uld: pmc_md11f_md-0
+          GHR:
+            segment: LH8272-25NOV15-FRA-VCP
+            uld: pge_md11f_md-1
+          GL:
+            segment: LH8272-25NOV15-FRA-SCL
+            uld: pmc_md11f_md-0
+          MR:
+            segment: LH8272-25NOV15-FRA-VCP
+            uld: pmc_md11f_md-0
+        loading_operations_before: 5
+        segments:
+        - LH8272-25NOV15-FRA-VCP
+        - LH8272-25NOV15-FRA-SCL
+        - LH8272-25NOV15-FRA-CWB
+        - LH8272-25NOV15-FRA-DKR
+        unloading_operations_after: 1
+      LH8272-25NOV15-VCP-CWB:
+        est_fuel_weight: 25000
+        extra_fuel_cost: 0.11
+        extra_fuel_cost_factor: 0.392
+        loaded_ulds:
+          34L:
+            segment: LH8272-25NOV15-FRA-CWB
+            uld: ake-0
+          GL:
+            segment: LH8272-25NOV15-FRA-SCL
+            uld: pmc_md11f_md-0
+        segments:
+        - LH8272-25NOV15-FRA-SCL
+        - LH8272-25NOV15-FRA-CWB
+        sequence: 3
+        unloading_operations_after: 1
+    std_timestamp: 1448480100
+segments:
+  LH8272-25NOV15-FRA-CWB:
+    built_ulds:
+      ake-0:
+        finish: 1448479800
+        loaded:
+        - height: 44
+          lat: 142
+          lng: 98
+          piece: 000-1013x0
+          shipment: 000-1013
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 44
+          lat: 142
+          lng: 98
+          piece: 000-1013x0
+          shipment: 000-1013
+          start_height: 44
+          start_lat: 0
+          start_lng: 0
+        - height: 68
+          lat: 48
+          lng: 33
+          piece: 000-1003x0
+          shipment: 000-1003
+          start_height: 0
+          start_lat: 0
+          start_lng: 98
+        - height: 28
+          lat: 68
+          lng: 37
+          piece: 000-1002x0
+          shipment: 000-1002
+          start_height: 0
+          start_lat: 48
+          start_lng: 98
+        - height: 64
+          lat: 30
+          lng: 36
+          piece: 000-1007x0
+          shipment: 000-1007
+          start_height: 0
+          start_lat: 116
+          start_lng: 98
+        start: 1448478000
+        total_weight: 709
+        uld_type: ake
+    offloads: {}
+    shipments:
+      000-1002:
+        pieces:
+          000-1002x0:
+            allowed_rotations: 63
+            amount: 1
+            avail: 1448458500
+            height: 68
+            lat: 28
+            lng: 37
+            offload_penalty: 68
+            specials: ZXF
+            stack_height: 0.059
+            stack_lat: 0.059
+            stack_lng: 0.059
+            weight: 17
+      000-1003:
+        pieces:
+          000-1003x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448454900
+            height: 68
+            lat: 33
+            lng: 48
+            offload_penalty: 256
+            stack_height: 0.15
+            weight: 128
+      000-1007:
+        pieces:
+          000-1007x0:
+            allowed_rotations: 63
+            amount: 1
+            avail: 1448457600
+            height: 30
+            lat: 36
+            lng: 64
+            offload_penalty: 80
+            specials: ZXF
+            stack_height: 0.022
+            stack_lat: 0.01
+            stack_lng: 0.018
+            weight: 20
+      000-1013:
+        pieces:
+          000-1013x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448465700
+            height: 44
+            lat: 98
+            lng: 142
+            offload_penalty: 474
+            specials: MAG
+            stack_height: 0.067
+            weight: 237
+    std_timestamp: 1448480100
+  LH8272-25NOV15-FRA-DKR:
+    built_ulds:
+      pmc_md11f_md-0:
+        finish: 1448479200
+        loaded:
+        - height: 37
+          lat: 161
+          lng: 133
+          piece: 000-1011x0
+          shipment: 000-1011
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 85
+          lat: 72
+          lng: 67
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 0
+          start_lat: 161
+          start_lng: 0
+        - height: 85
+          lat: 72
+          lng: 67
+          piece: 000-1009x0
+          shipment: 000-1009
+          start_height: 0
+          start_lat: 161
+          start_lng: 67
+        start: 1448476200
+        total_weight: 787
+        uld_type: pmc_md11f_md
+    offloads: {}
+    shipments:
+      000-1009:
+        pieces:
+          000-1009x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448472900
+            height: 85
+            lat: 67
+            lng: 72
+            offload_penalty: 1140
+            specials: ZXF
+            stack_height: 0.214
+            weight: 285
+      000-1011:
+        pieces:
+          000-1011x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448426700
+            height: 37
+            lat: 133
+            lng: 161
+            offload_penalty: 264
+            stack_height: 0.021
+            weight: 87
+    std_timestamp: 1448480100
+  LH8272-25NOV15-FRA-SCL:
+    built_ulds:
+      pmc_md11f_md-0:
+        finish: 1448479200
+        loaded:
+        - height: 172
+          lat: 120
+          lng: 102
+          piece: 000-1010x0
+          shipment: 000-1010
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 172
+          lat: 102
+          lng: 120
+          piece: 000-1010x0
+          shipment: 000-1010
+          start_height: 0
+          start_lat: 120
+          start_lng: 0
+        - height: 36
+          lat: 55
+          lng: 121
+          piece: 000-1012x0
+          shipment: 000-1012
+          start_height: 0
+          start_lat: 0
+          start_lng: 102
+        start: 1448476200
+        total_weight: 1517
+        uld_type: pmc_md11f_md
+    offloads:
+      000-1005x0: 4
+    shipments:
+      000-1005:
+        pieces:
+          000-1005x0:
+            allowed_rotations: 5
+            amount: 4
+            avail: 1448443500
+            height: 15
+            lat: 34
+            lng: 63
+            offload_penalty: 20
+            specials: ZXF
+            stack_height: 0.005
+            weight: 4
+      000-1010:
+        pieces:
+          000-1010x0:
+            allowed_rotations: 5
+            amount: 2
+            avail: 1448465700
+            height: 172
+            lat: 102
+            lng: 120
+            offload_penalty: 1276
+            stack_height: 0.139
+            weight: 638
+      000-1012:
+        pieces:
+          000-1012x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448454300
+            height: 36
+            lat: 55
+            lng: 121
+            offload_penalty: 222
+            stack_height: 0.05
+            weight: 111
+    std_timestamp: 1448480100
+  LH8272-25NOV15-FRA-VCP:
+    built_ulds:
+      pge_md11f_md-1:
+        finish: 1448475600
+        loaded:
+        - height: 126
+          lat: 216
+          lng: 216
+          piece: 000-1000x0
+          shipment: 000-1000
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 104
+          lat: 152
+          lng: 366
+          piece: 000-1006x0
+          shipment: 000-1006
+          start_height: 0
+          start_lat: 0
+          start_lng: 216
+        - height: 37
+          lat: 139
+          lng: 123
+          piece: 000-1001x0
+          shipment: 000-1001
+          start_height: 104
+          start_lat: 0
+          start_lng: 216
+        - height: 37
+          lat: 139
+          lng: 123
+          piece: 000-1001x0
+          shipment: 000-1001
+          start_height: 104
+          start_lat: 0
+          start_lng: 339
+        - height: 37
+          lat: 139
+          lng: 123
+          piece: 000-1001x0
+          shipment: 000-1001
+          start_height: 104
+          start_lat: 0
+          start_lng: 462
+        - height: 37
+          lat: 139
+          lng: 123
+          piece: 000-1001x0
+          shipment: 000-1001
+          start_height: 126
+          start_lat: 0
+          start_lng: 0
+        - height: 44
+          lat: 72
+          lng: 101
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 0
+          start_lat: 152
+          start_lng: 216
+        - height: 44
+          lat: 72
+          lng: 101
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 0
+          start_lat: 152
+          start_lng: 317
+        - height: 44
+          lat: 72
+          lng: 101
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 0
+          start_lat: 152
+          start_lng: 418
+        - height: 101
+          lat: 72
+          lng: 44
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 0
+          start_lat: 152
+          start_lng: 519
+        - height: 44
+          lat: 72
+          lng: 101
+          piece: 000-1014x0
+          shipment: 000-1014
+          start_height: 44
+          start_lat: 152
+          start_lng: 216
+        start: 1448469000
+        total_weight: 2705
+        uld_type: pge_md11f_md
+      pmc_md11f_md-0:
+        finish: 1448477400
+        loaded:
+        - height: 81
+          lat: 121
+          lng: 121
+          piece: 000-1008x0
+          shipment: 000-1008
+          start_height: 0
+          start_lat: 0
+          start_lng: 0
+        - height: 81
+          lat: 121
+          lng: 121
+          piece: 000-1008x0
+          shipment: 000-1008
+          start_height: 0
+          start_lat: 121
+          start_lng: 0
+        - height: 81
+          lat: 121
+          lng: 121
+          piece: 000-1008x0
+          shipment: 000-1008
+          start_height: 0
+          start_lat: 0
+          start_lng: 121
+        - height: 37
+          lat: 108
+          lng: 165
+          piece: 000-1004x0
+          shipment: 000-1004
+          start_height: 0
+          start_lat: 121
+          start_lng: 121
+        - height: 37
+          lat: 108
+          lng: 165
+          piece: 000-1004x0
+          shipment: 000-1004
+          start_height: 37
+          start_lat: 121
+          start_lng: 121
+        - height: 37
+          lat: 108
+          lng: 165
+          piece: 000-1004x0
+          shipment: 000-1004
+          start_height: 74
+          start_lat: 121
+          start_lng: 121
+        start: 1448474400
+        total_weight: 637
+        uld_type: pmc_md11f_md
+    offloads: {}
+    shipments:
+      000-1000:
+        pieces:
+          000-1000x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448429700
+            height: 126
+            lat: 216
+            lng: 216
+            offload_penalty: 2208
+            stack_height: 0.054
+            weight: 1104
+      000-1001:
+        pieces:
+          000-1001x0:
+            allowed_rotations: 5
+            amount: 4
+            avail: 1448465700
+            height: 37
+            lat: 123
+            lng: 139
+            offload_penalty: 210
+            specials: DGR RFL RMD
+            stack_height: 0.008
+            weight: 14
+      000-1004:
+        pieces:
+          000-1004x0:
+            allowed_rotations: 5
+            amount: 3
+            avail: 1448472900
+            height: 37
+            lat: 108
+            lng: 165
+            offload_penalty: 436
+            specials: ZXF
+            stack_height: 0.018
+            weight: 97
+      000-1006:
+        pieces:
+          000-1006x0:
+            allowed_rotations: 5
+            amount: 1
+            avail: 1448418600
+            height: 104
+            lat: 152
+            lng: 366
+            offload_penalty: 1928
+            stack_height: 0.044
+            weight: 795
+      000-1008:
+        pieces:
+          000-1008x0:
+            allowed_rotations: 5
+            amount: 3
+            avail: 1448472900
+            height: 81
+            lat: 121
+            lng: 121
+            offload_penalty: 788
+            specials: ZXF
+            stack_height: 0.032
+            weight: 72
+      000-1014:
+        pieces:
+          000-1014x0:
+            allowed_rotations: 63
+            amount: 5
+            avail: 1448465700
+            height: 44
+            lat: 72
+            lng: 101
+            offload_penalty: 106
+            stack_height: 0.024
+            stack_lat: 0.011
+            stack_lng: 0.015
+            weight: 44
+    std_timestamp: 1448480100
+

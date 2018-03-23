@@ -6,4 +6,6 @@ This project contains synthetic problem instances and benchmark solutions for th
 * [How the instances were generated](doc/generation.md)
 * [Measuring solution quality](doc/measures.md)
 
+This material (data and documentation) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 [YAML]: http://en.wikipedia.org/wiki/YAML

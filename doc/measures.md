@@ -35,7 +35,7 @@ The sum of additional fuel required for all flight legs. Additional fuel is requ
 * the estimated fuel weight for the current leg (`leg.est_fuel_weight`)
 * the weight of all loaded ulds (including the tare weight of ULD itself `uld.tare_weight`).
 
-To calculate the longitudinal CG we sum up the rotational moments of the aircraft (`(oew + est_fuel_weight) * oew_lng_arm`, for simplicity we assume the CG of the fuel is the same as the empty aircraft) and all loaded ulds (` loading_position.lng_arm * built_uld.weight`) and devide it by the total weight of the aircraft. For simplicity we assume that the required extra fuel is proportional to the deviation of the actual CG from the optimal. The corresponding cost factor is given for each leg as `leg.extra_fuel_cost_factor`. Accordingly the extra fuel cost for a leg can be calculated as follows:
+To calculate the longitudinal CG we sum up the rotational moments of the aircraft (`(oew + est_fuel_weight) * oew_lng_arm`, for simplicity we assume the CG of the fuel is the same as the empty aircraft) and all loaded ulds (` loading_position.lng_arm * built_uld.weight`) and divide it by the total weight of the aircraft. For simplicity we assume that the required extra fuel is proportional to the deviation of the actual CG from the optimal. The corresponding cost factor is given for each leg as `leg.extra_fuel_cost_factor`. Accordingly the extra fuel cost for a leg can be calculated as follows:
 ```
 payload = sum(u in leg.loaded_ulds) built_ulds[u].weight
 total_weight = aircraft.oew + leg.est_fuel_weight + payload
